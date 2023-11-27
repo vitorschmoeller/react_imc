@@ -1,0 +1,39 @@
+body{
+    background-color: var(--corPrincipal);
+}
+
+.container{
+    background-color: var(--corPrincipal);
+    height: 100vh;
+    display: block;
+    
+}
+
+header{
+    text-align: center;
+    background-color: var(--corPrincipal);
+
+}
+
+form{
+    background-color: aliceblue;
+    padding: 220px 300px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 1px 1px ;
+    border: 2px solid rgba(0,0,0,0.8);
+}
+
+:root{
+    --corPrincipal: #2c3e50;
+}
+button{
+    width: 100%;
+}
+
+.redflag{
+    color: red;
+}
+
+.green{
+    color: green;
+}
